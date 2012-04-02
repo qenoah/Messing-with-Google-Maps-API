@@ -1,13 +1,16 @@
+var map;
+var infowindow;
+
 function init() {
 
 
     var myOptions = {
-      zoom: 10,
+      zoom: 16,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     
     
-    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+    map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
     
 
     
@@ -30,7 +33,7 @@ function init() {
        		var request = {
        			location: myLatLong,
        			radius: 500,
-       			types: ['restaruant']
+       			types: ['restaurant']
        		};
        		infowindow = new google.maps.InfoWindow();
 	     		var service = new google.maps.places.PlacesService(map);
