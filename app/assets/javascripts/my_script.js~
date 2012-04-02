@@ -30,7 +30,7 @@ function init() {
        		var request = {
        			location: myLatLong,
        			radius: 500,
-       			types: ['restaruant']'
+       			types: ['restaruant']
        		}
 		});
 	} /* close if */
