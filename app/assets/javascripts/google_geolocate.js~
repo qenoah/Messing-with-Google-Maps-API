@@ -1,6 +1,6 @@
 // Note that using Google Gears requires loading the Javascript
 // at http://code.google.com/apis/gears/gears_init.js
-<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+
 
 var initialLocation;
 var siberia = new google.maps.LatLng(60, 105);
