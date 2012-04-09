@@ -1,5 +1,5 @@
 <% provide(:title, 'Home') %>
-<div class="center hero-unit">
+<!-- <div class="center hero-unit">
   <h1>Welcome to my App</h1>
 
   <h2>
@@ -8,3 +8,5 @@
   
   <p>I think you are at <span id="yourLocation"></span></p>
 </div>
+-->
+<div id="map_canvas"></div>
